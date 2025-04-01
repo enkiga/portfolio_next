@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="text-sm font-light text-primary tracking-wider">
             Welcome to my portfolio
           </h1>
-          <h1 className="text-5xl font-extrabold">Enoch Garoli .</h1>
+          <h1 className="text-5xl font-extrabold"><span className="font-medium">I'm</span> Enoch Garoli .</h1>
           <p className="bg-primary rounded-full py-0.5 px-2 text-xs text-white self-end">
             Software Developer
           </p>
