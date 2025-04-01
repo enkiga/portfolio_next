@@ -1,40 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Next.js Portfolio Website
 
-## Getting Started
+This repository contains a portfolio website built using Next.js. It showcases skills, projects, and contact information, incorporating styling, images, and page-based routing.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was created as a checkpoint to demonstrate proficiency in:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Setting up a Next.js project.
+* Styling components with CSS modules.
+* Displaying images using Next.js's `Image` component.
+* Implementing page-based routing with Next.js.
+* Server-side rendering (implicit in Next.js).
+* Deployment readiness.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Functionality
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The portfolio website includes the following pages:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+* **Home:** Introduces the portfolio owner and highlights key skills.
+* **About:** Provides more detailed information about the portfolio owner.
+* **Projects:** Displays a list of projects with images and descriptions.
+* **Contact:** Offers contact information and a form or links for reaching out.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+* Next.js
+* React
+* CSS Modules (or other chosen styling method)
 
-To learn more about Next.js, take a look at the following resources:
+## Setup Instructions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+To run this application locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
 
-## Deploy on Vercel
+    ```bash
+    git clone https://github.com/enkiga/portfolio_next
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Navigate to the project directory:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+    ```bash
+    cd portfolio_next
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    This will open the application in your default web browser.
+
+## File Structure
+
+* `pages/`: Contains the Next.js pages for each section of the portfolio.
+  * ```index.js```: Home page.
+  * ```about.js```: About page.
+  * ```projects.js```: Projects page.
+  * ```contact.js```: Contact page.
+* `components/`: Contains reusable React components.
+* `public/`: Contains static assets, such as images.
+* `styles/`: Contains CSS modules or other styling files.
+* `package.json`: Lists the project's dependencies and scripts.
+* `README.md`: This file.
+* `next.config.js`: Next.js configuration file.
+
+## Usage
+
+Once the application is running, you can navigate between the different pages to view the portfolio content.
+
+## Key Features
+
+* **Page-based routing:** Next.js's file-based routing makes it easy to create and manage pages.
+* **Image optimization:** The Next.js `Image` component optimizes images for performance.
+* **Styling:** CSS modules or other chosen styling approach to maintain organized and scoped styles.
+* **Server-side rendering (SSR):** Next.js handles SSR automatically, improving performance and SEO.
+* **Deployment ready:** The project is configured for easy deployment to platforms like Vercel, Netlify, or others.
+
+## Deployment
+
+To deploy this Next.js application, you can use platforms like:
+
+* **Vercel:** Optimized for Next.js deployments.
+* **Netlify:** Easy deployment with Git integration.
+* **Other platforms:** Deploy to any platform that supports Node.js applications.
+
+Follow the platform's deployment instructions to deploy your portfolio website.
